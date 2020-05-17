@@ -1,0 +1,175 @@
+body {
+	font-family: "PT Sans";
+	font-size = 100%;
+	line-height: 1.7em;
+	color: #000000;
+}
+
+#container1 {
+	width: 70%;
+	margin: 10px auto;
+}
+
+#top_row {
+	padding: .5em .5em 3em .5em;
+	margin-bottom: -2.5em;
+}
+
+#top_row h1 {
+	color: #A6CBCE;
+	font-size: 3.75em;
+	letter-spacing: -2px;
+}
+
+nav {
+	text-align: center;
+	width: 100%;
+}
+
+header {
+	text-align: center;
+}
+
+#top_row nav a {
+	text-decoration: none;
+	font-size: 1.125em;
+	font-weight: 400;
+	padding: 15px;
+	color: #ED9C6B;
+}
+
+#top_row nav a.selected {
+	background: #f6f6f6;
+	color: #bbbbbb;
+}
+
+#top_row nav a.selected:hover {
+	background: #f6f6f6;
+	color: #03757D;
+}
+
+#top_row nav a:hover {
+	background: #f6f6f6;
+	color: #03757D;
+}
+
+#top_row img {
+	width: 7%;
+	height: 7%;
+}
+
+#container2 {
+	width: 70%;
+	margin: 10px auto;
+	border: 1px solid gray;
+}
+
+#content {
+	float: left;
+	width: 70%;
+	margin: 0;
+	padding: 1em;
+	border-right: 1px dotted #ccc;
+}
+
+#content form {
+	width: 75%;
+	padding: 10px;
+}
+
+#content table {
+	color: #075F8A;
+	border: 3px solid #075F8A;
+	border-spacing: 3px;
+	table-layout: auto;
+	border-collapse: collapse;
+	width: 75%;
+}
+
+th {
+	height: 40px;
+	font-weight: bold;
+}
+
+table, th, td {
+	padding: 2px;
+	text-align: center;
+	border: 1px solid #333333;
+}
+
+legend {
+	font-weight: bold;
+	text-align: center;
+	color: #666666;
+	margin-bottom: 5px;
+}
+
+label {
+	font-weight:bold;
+	text-align: center;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+.thumbnail {
+	width: 10%;
+	height: 10%;
+}
+
+iframe {
+	display:block;
+	margin:auto;
+}
+
+#sidebar {
+	float: left;
+	padding: 1em;
+	font-size: 0.875em;
+	width: 15%;
+}
+
+#sidebar h3 {
+	font-size: 1.125em;
+	border-bottom: 1px dotted #ccc;
+}
+
+#sidebar img {
+	width: 30%;
+	height: 30%;
+}
+
+a:link {
+	color: #3F7C9D;
+	text-decoration: none;
+}
+
+a:visited {
+  color: indigo;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+a:active {
+  text-decoration: underline;
+}
+
+footer {
+	clear: both;
+	margin: 0;
+	padding: .5em;
+	color: #333333;
+	font-variant: small-caps;
+	font-size: .813em;
+	text-align: center;
+
+}
+
+

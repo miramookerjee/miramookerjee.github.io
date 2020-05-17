@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+
+	<link rel="stylesheet" media="all" type="text/css" href="css/styles.css" />
+	<meta charset="utf-8" />
+	<meta name="author" content="Mira Mookerjee">
+	<meta name="keywords" content="Blue Monkey Tea">
+	<meta name="description" content="Blue Monkey Tea Website">
+
+	<title>Blue Monkey Tea</title>
+
+	<script src="js/jquery-3.4.1.min.js"></script>
+	<script src="js/scripts.js"></script>
+	<script src="js/jquery-ui.js"></script>
+	<script src="http://code.highcharts.com/highcharts.js"></script>
+	<script src="http://code.highcharts.com/modules/exporting.js"></script>	
+	<script>
+		$(function() {
+			$('#container-graph').highcharts({
+
+				    chart: {
+				        type: 'line'
+				    },
+				    title: {
+				        text: 'Popular Times'
+				    },
+				    xAxis: {
+				        categories: ['11AM', '12PM', '1PM', '2PM', '3PM', '4PM', '5PM', '6PM', '7PM']
+				    },
+				    yAxis: {
+				        title: {
+				            text: 'Average Number of People'
+				        }
+				    },
+				    plotOptions: {
+				        line: {
+				            dataLabels: {
+				                enabled: true
+				            },
+				            enableMouseTracking: false
+				        }
+				    },
+				    series: [{
+				        name: 'Mon-Sat',
+				        data: [5, 10, 8, 24, 5, 7, 32, 16]
+				    }, {
+				        name: 'Sun',
+				        data: [0, 50, 48, 25, 28, 27, 0, 0]
+				    }]
+				});
+
+
+			});
+	</script> 
+
+</head>
+
+<body>
+<div id="container1">
+
+	<div id="top_row">
+	<nav>
+		<a href="index.html">HOME</a>
+		<a href="menu.html">MENU</a>
+		<a href="location-hours.html">LOCATION/HOURS</a>
+		<a href="contact.html">CONTACT</a>
+		<a href="about.html">ABOUT</a>
+		<a href="mailing_list.html">MAILING LIST</a>
+	</nav>
+	<header>
+		<h1>BLUE MONKEY TEA&nbsp;&nbsp;<img src="images/logo.png" alt="Blue Monkey Logo" class="logo"/></h1>
+	</header>
+	</div>
+</div>
+
+<div id="container2">
+	<div id="content">
+
+		<h3>Location</h3>
+
+		<p>We are located in Pittsburgh, PA, in the Squirrel Hill neighborhood.<br/>Please note that our second location in Carnegie has been closed.</p>
+
+		<p>Use the map below to find us.</p>
+
+		<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3036.6899192822175!2d-79.92238558459738!3d40.4378645622777!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8834f2001a450d9f%3A0xa25015943230019f!2s5872%20Forbes%20Ave%2C%20Pittsburgh%2C%20PA%2015217!5e0!3m2!1sen!2sus!4v1585154149716!5m2!1sen!2sus" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe><br/><br/>
+
+		<h3>Hours</h3>
+
+		<ul>
+		<li>Monday 11AM to 7PM</li>
+		<li>Tuesday	11AM to 7PM</li>
+		<li>Wednesday 11AM to 7PM</li>
+		<li>Thursday 11AM to 7PM</li>
+		<li>Friday	11AM to 7PM</li>
+		<li>Saturday 11AM to 7PM</li>
+		<li>Sunday	12 to 5PM</li>
+		</ul>
+
+		<p>The graph below shows our most popular times.</p>
+
+		<div id="container-graph"></div>
+
+
+	</div>
+
+	<div id="sidebar">
+		<h3>Find us</h3>
+		5872 Forbes Ave<br/>
+		Pittsburgh, PA 15217<br/>
+		<a href="mailto:100teacups@gmail.com" target="_blank">Email Us</a><br/>
+		<a href="https://www.pittsburghCuppa.com" target="_blank">Our Website</a><br/>
+		<a href="mailing_list.html">Mailing List</a><br/><br/>
+		<a href="https://www.facebook.com/TeaPittsburgh/" target="_blank"><img src="images/icons/facebook.png" alt="Facebook Icon" class="icon"></a>
+		<a href="https://www.instagram.com/bluemonkeytea/" target="_blank"><img src="images/icons/insta.png" alt="Instagram Icon" class="icon"></a>
+		<a href="https://teapittsburgh.wordpress.com/" target="_blank"><img src="images/icons/blog.png" alt="Blog Icon" class="icon"></a>
+	</div>
+
+
+	<footer>
+		&copy; Mira Mookerjee | 
+		Image Credits:
+		<a href = "https://www.facebook.com/TeaPittsburgh/">BM Facebook</a>
+		<a href = "https://www.instagram.com/bluemonkeytea/" target = "_blank">BM Instagram</a>
+		<a href = "https://search.creativecommons.org/ " target = "_blank">Creative Commons</a>
+	</footer>
+
+</div>
+</body>
