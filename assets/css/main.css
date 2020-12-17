@@ -37,6 +37,25 @@ ol, ul {
 	list-style: none;
 }
 
+ol li.insight {
+	font-weight:bold;
+	font-size: 120%;
+	color:#543b89
+}
+
+p.mainq {
+	font-weight:bold;
+	font-size: 200%;
+	font-style: italic;
+	color:#ae92e9
+}
+
+p.caption {
+	text-align:center;
+	font-size:75%;
+	font-weight:bold;
+}
+
 blockquote, q {
 	quotes: none;
 }
