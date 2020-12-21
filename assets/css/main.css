@@ -2769,6 +2769,10 @@ input, select, textarea {
 				background-color: #596297;
 			}
 
+			.tiles article.style10 > .image:before {
+				background-color: #78f088;
+			}
+
 			body:not(.is-touch) .tiles article:hover > .image {
 				-moz-transform: scale(1.1);
 				-webkit-transform: scale(1.1);
